@@ -1,0 +1,13 @@
+@import "src/assets/mixins";
+
+.page-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .btn {
+    @include custom-btn(0.14rem)
+  }
+}

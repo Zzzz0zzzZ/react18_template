@@ -1,0 +1,13 @@
+@mixin custom-btn($fontsize) {
+  color: #ff9300;
+  font-size: $fontsize;
+  font-weight: bold;
+
+  &:hover {
+    color: #ff9300 !important;
+  }
+
+  &:active {
+    color: #ffffff !important;
+  }
+}
