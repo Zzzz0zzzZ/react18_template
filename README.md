@@ -18,7 +18,10 @@ pnpm i
 ```
 ### 项目启动
 ```shell
+# backend环境
 pnpm run start
+# mock环境
+pnpm run start-with-mock
 ```
 ### 跨域配置
 1. 修改`src/setupProxy.js`中的`target`字段
